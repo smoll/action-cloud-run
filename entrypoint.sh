@@ -1,6 +1,6 @@
 #!/bin/sh
 
-set -e
+set -ex
 
 echo "$INPUT_SERVICE_KEY" | base64 --decode > "$HOME"/gcloud.json
 
